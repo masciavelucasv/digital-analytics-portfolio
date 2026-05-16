@@ -67,8 +67,7 @@ python analysis/ecommerce_analysis.py
 - **Mid loyalty segment is most cost-efficient** (£5,063 CPA, 2,906 conversions)
 - Investing in loyalty programme could shift customers from Low → Mid and reduce CPA
 
-## Fix the FutureWarning
-```python
+
 
 ## Author
 
