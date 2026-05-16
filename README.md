@@ -11,21 +11,6 @@ using a dataset of 8,000 customer records across multiple advertising channels,
 campaign types, and platforms. The focus is on the core KPIs relevant to digital
 sales: Conversion Rate (CR), Cost Per Acquisition (CPA), and funnel drop-off.
 
-## Repository Structure
-digital-analytics-portfolio/
-│
-├── data/
-│   └── raw/                  # original dataset (not tracked if sensitive)
-│
-├── analysis/
-│   └── ecommerce_analysis.py # main analysis script
-│
-├── output/
-│   ├── ecommerce_dashboard.png
-│   └── correlation_matrix.png
-│
-└── README.md
-
 ## Key Analyses
 
 - **CR & CPA by channel and campaign type** — identifying best and worst performing segments
