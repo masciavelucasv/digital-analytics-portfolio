@@ -122,7 +122,7 @@ print(f"\n--- A/B Test: {top2[0]} vs {top2[1]} ---")
 print(f"Mean CR {top2[0]}: {group_a.mean():.2f}%")
 print(f"Mean CR {top2[1]}: {group_b.mean():.2f}%")
 print(f"T-statistic: {t_stat:.3f} | P-value: {p_value:.4f}")
-print("Significant difference ✅" if p_value < 0.05 else "No significant difference ❌")
+print("Significant difference " if p_value < 0.05 else "No significant difference ❌")
 
 # ── 8. LOYALTY & REPEAT PURCHASE IMPACT ─────────────────────────────
 df['loyalty_segment'] = pd.cut(df['loyaltypoints'],
